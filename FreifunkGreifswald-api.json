@@ -1,0 +1,117 @@
+{
+  "name": "Freifunk Greifswald",
+  "url": "http://greifswald.freifunk.net",
+  "location": {
+    "city": "Greifswald",
+    "country": "DE",
+    "lat": 54.095833,
+    "lon": 13.381111,
+    "address": {
+      "Name": "Initiativenbüro",
+      "Street": "Lange Straße 60",
+      "Zipcode": "17489"
+    }
+  },
+  "contact": {
+    "email": "info@greifswald.freifunk.net",
+    "irc": "irc://irc.freenode.net/ffhgw",
+    "ml": "greifswald@freifunk.net",
+    "facebook": "https://www.facebook.com/FreifunkGreifswald",
+    "twitter": "@freifunk_hgw"
+  },
+  "state": {
+    "description": "Wir setzen uns in Greifswald für eine Gesellschaft ein, in der Zugang zu digitaler Infrastruktur noch selbstverständlicher ist als fließendes Wasser aus der Wand. Dabei wollen wir nicht bloß Hotspotaufsteller sein, sondern laden ausdrücklich alle dazu ein, sich uns anzuschließen und gemeinsam an selbstverwalteten Meshnetzwerken und der Vision ubiquitären und bedingungslosen Zugangs zu Informationen zu arbeiten.",
+    "lastchange": "2015-05-17T11:43:10.712Z",
+    "focus": []
+  },
+  "services": [
+    {
+      "serviceName": "wiki",
+      "serviceDescription": "das Greifswalder Freifunkwiki",
+      "externalUri": "wiki.greifswald.freifunk.net"
+    }
+  ],
+  "timeline": [
+    {
+      "description": "Birth",
+      "timestamp": "2011-08-28"
+    },
+    {
+      "description": "Rebirth",
+      "timestamp": "2014-06-19"
+    },
+    {
+      "description": "erstes eigenes Gateway",
+      "timestamp": "2014-09-12"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Freifunk Greifswald",
+      "category": "blog",
+      "type": "rss",
+      "url": "http://freifunk.myriapod.de/?feed=rss2"
+    },
+    {
+      "name": "Freifunk Greifswald Termine",
+      "category": "ics",
+      "type": "html",
+      "url": "http://freifunk.myriapod.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.greifswald.freifunk.net/list.html",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    },
+    {
+      "url": "http://map.greifswald.freifunk.net/geomap.html",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.greifswald.freifunk.net/graph.html",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    }
+  ],
+  "support": {
+    "donations": {
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "22681"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://images.greifswald.freifunk.net"
+    },
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fdef:affe:edda::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.143.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.8"
+}
