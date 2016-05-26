@@ -22,7 +22,7 @@
   },
   "state": {
     "description": "Wir setzen uns in Greifswald für eine Gesellschaft ein, in der Zugang zu digitaler Infrastruktur noch selbstverständlicher ist als fließendes Wasser aus der Wand. Dabei wollen wir nicht bloß Hotspotaufsteller sein, sondern laden ausdrücklich alle dazu ein, sich uns anzuschließen und gemeinsam an selbstverwalteten Meshnetzwerken und der Vision ubiquitären und bedingungslosen Zugangs zu Informationen zu arbeiten.",
-    "lastchange": "2016-05-22T21:41:52.443Z",
+    "lastchange": "2016-05-26T06:54:05.617Z",
     "focus": []
   },
   "services": [
@@ -51,7 +51,7 @@
       "name": "Freifunk Greifswald",
       "category": "blog",
       "type": "rss",
-      "url": "http://freifunk.myriapod.de/?feed=rss2"
+      "url": "https://wiki.greifswald.freifunk.net/index.php?title=Blog:Freifunk_Greifswald&view=archives&show=published&feed=rss"
     },
     {
       "name": "Freifunk Greifswald Termine",
@@ -81,6 +81,9 @@
     "number": 2
   },
   "support": {
+    "club": {
+      "name": "Freifunk Greifswald e.V."
+    },
     "donations": {
       "campaigns": [
         {
