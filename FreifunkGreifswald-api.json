@@ -75,7 +75,7 @@
       "url": "http://map.greifswald.freifunk.net/graph.html",
       "technicalType": "ffmap",
       "mapType": "structural"
-    }
+    },
     {
       "url": "http://map.greifswald.freifunk.net/nodes.json",
       "interval": "1 day",
