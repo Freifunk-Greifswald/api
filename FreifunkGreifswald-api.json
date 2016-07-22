@@ -50,8 +50,8 @@
     {
       "name": "Freifunk Greifswald",
       "category": "blog",
-      "type": "rss",
-      "url": "https://wiki.greifswald.freifunk.net/index.php?title=Blog:Freifunk_Greifswald&view=archives&show=published&feed=rss"
+      "type": "atom",
+      "url": "https://wiki.greifswald.freifunk.net/index.php?title=Blog:Freifunk_Greifswald&view=archives&show=published&feed=atom"
     },
     {
       "name": "Freifunk Greifswald Termine",
