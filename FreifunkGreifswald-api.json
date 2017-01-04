@@ -62,9 +62,10 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.muehlentor.ffhgw.de/",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
+      "url": "http://map.muehlentor.ffhgw.de/data/nodelist.json",
+      "interval": "1min",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
     {
       "url": "http://map.greifswald.freifunk.net/list.html",
