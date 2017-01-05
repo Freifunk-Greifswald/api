@@ -66,7 +66,7 @@
       "interval": "1min",
       "technicalType": "nodelist",
       "mapType": "list/status"
-    }
+    },
     {
       "url": "http://map.greifswald.freifunk.net/list.html",
       "technicalType": "ffmap",
