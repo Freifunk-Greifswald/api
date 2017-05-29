@@ -21,8 +21,9 @@
     "twitter": "@freifunk_hgw"
   },
   "state": {
+    "nodes": 100,
     "description": "Wir setzen uns in Greifswald für eine Gesellschaft ein, in der Zugang zu digitaler Infrastruktur noch selbstverständlicher ist als fließendes Wasser aus der Wand. Dabei wollen wir nicht bloß Hotspotaufsteller sein, sondern laden ausdrücklich alle dazu ein, sich uns anzuschließen und gemeinsam an selbstverwalteten Meshnetzwerken und der Vision ubiquitären und bedingungslosen Zugangs zu Informationen zu arbeiten.",
-    "lastchange": "2016-05-26T06:54:05.617Z",
+    "lastchange": "2017-05-29T15:43:19.239Z",
     "focus": []
   },
   "services": [
@@ -44,6 +45,10 @@
     {
       "description": "erstes eigenes Gateway",
       "timestamp": "2014-09-12"
+    }
+    {
+      "description": "Vereinsgründung",
+      "timestamp": "2015-12-08"
     }
   ],
   "feeds": [
