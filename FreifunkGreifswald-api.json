@@ -51,36 +51,27 @@
       "name": "Freifunk Greifswald",
       "category": "blog",
       "type": "rss",
-      "url": "https://wiki.greifswald.freifunk.net/index.php?title=Blog:Freifunk_Greifswald&view=archives&show=published&feed=rss"
+      "url": "http://ffhgw.de/feed/"
     },
     {
       "name": "Freifunk Greifswald Termine",
       "category": "ics",
       "type": "html",
-      "url": "http://freifunk.myriapod.de/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
+      "url": "http://ffhgw.de/events/?ical=1"
     }
   ],
   "nodeMaps": [
     {
-      "url": "http://map.muehlentor.ffhgw.de/data/nodelist.json",
+      "url": "https://map.ffhgw.de/data/nodes.json",
       "interval": "1min",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "http://map.greifswald.freifunk.net/list.html",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    },
-    {
-      "url": "http://map.greifswald.freifunk.net/geomap.html",
-      "technicalType": "ffmap",
+      "url": "https://map.ffhgw.de",
+      "interval": "1min",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
-    },
-    {
-      "url": "http://map.greifswald.freifunk.net/graph.html",
-      "technicalType": "ffmap",
-      "mapType": "structural"
     }
   ],
   "socialprojects": {
