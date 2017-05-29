@@ -67,7 +67,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://map.ffhgw.de/data/nodes.json",
+      "url": "https://map.ffhgw.de/data/nodelist.json",
       "interval": "1min",
       "technicalType": "nodelist",
       "mapType": "list/status"
