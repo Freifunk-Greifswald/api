@@ -61,7 +61,7 @@
     {
       "name": "Freifunk Greifswald Termine",
       "category": "ics",
-      "type": "html",
+      "type": "ics",
       "url": "http://ffhgw.de/events/?ical=1"
     }
   ],
