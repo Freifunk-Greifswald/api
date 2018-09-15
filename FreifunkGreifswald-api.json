@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Greifswald",
-  "url": "http://greifswald.freifunk.net",
+  "url": "https://ffhgw.de",
   "location": {
     "city": "Greifswald",
     "country": "DE",
@@ -13,7 +13,7 @@
     }
   },
   "contact": {
-    "email": "info@greifswald.freifunk.net",
+    "email": "greifswald@freifunk.net",
     "phone": "+49 3834 8383530",
     "irc": "irc://irc.freenode.net/ffhgw",
     "ml": "greifswald@freifunk.net",
@@ -21,18 +21,14 @@
     "twitter": "@freifunk_hgw"
   },
   "state": {
-    "nodes": 100,
+    "nodes": 120,
     "description": "Wir setzen uns in Greifswald für eine Gesellschaft ein, in der Zugang zu digitaler Infrastruktur noch selbstverständlicher ist als fließendes Wasser aus der Wand. Dabei wollen wir nicht bloß Hotspotaufsteller sein, sondern laden ausdrücklich alle dazu ein, sich uns anzuschließen und gemeinsam an selbstverwalteten Meshnetzwerken und der Vision ubiquitären und bedingungslosen Zugangs zu Informationen zu arbeiten.",
-    "lastchange": "2018-05-25T05:43:54.711Z",
-    "focus": []
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi"
+    ],
+    "lastchange": "2018-09-15T16:08:02.161Z"
   },
-  "services": [
-    {
-      "serviceName": "wiki",
-      "serviceDescription": "das Greifswalder Freifunkwiki",
-      "externalUri": "wiki.greifswald.freifunk.net"
-    }
-  ],
   "timeline": [
     {
       "description": "Birth",
@@ -56,13 +52,13 @@
       "name": "Freifunk Greifswald",
       "category": "blog",
       "type": "rss",
-      "url": "http://ffhgw.de/feed/"
+      "url": "https://ffhgw.de/feed/"
     },
     {
       "name": "Freifunk Greifswald Termine",
       "category": "ics",
       "type": "ics",
-      "url": "http://ffhgw.de/events/?ical=1"
+      "url": "https://ffhgw.de/events/?ical=1"
     }
   ],
   "nodeMaps": [
@@ -79,7 +75,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "http://unifi.greifswald.freifunk.net/data/nodelist.json",
+      "url": "https://unifi.greifswald.freifunk.net/data/nodelist.json",
       "interval": "10min",
       "technicalType": "nodelist",
       "mapType": "list/status"
@@ -93,6 +89,11 @@
       "name": "Freifunk Greifswald e.V."
     },
     "donations": {
+      "bankaccount": {
+        "IBAN": "DE58830654080004927087",
+        "BIC": "GENODEF1SLR",
+        "usage": "Spende"
+      },
       "campaigns": [
         {
           "provider": "betterplace",
@@ -101,10 +102,13 @@
       ]
     }
   },
+  "privacy": {
+    "policyurl": "https://ffhgw.de/datenschutz/"
+  },
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "http://images.greifswald.freifunk.net"
+      "url": "https://firmware.ffhgw.de/"
     },
     "networks": {
       "ipv6": [
@@ -119,6 +123,7 @@
       ]
     },
     "routing": [
+      "802.11s",
       "batman-adv"
     ],
     "updatemode": [
